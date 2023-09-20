@@ -1,14 +1,14 @@
 #include "main.h"
 
 /**
- * print_pointer - Func prints the value of a pointer val
+ * print_pointer - func prints the value of a pointer val
  * @types: array a of args
- * @buffer: Buffer array to print
- * @flags:  Calculat active flags
- * @width: Width
- * @precision: Precision specification
- * @size: Size specifier
- * Return: Number of chars printed.
+ * @buffer: nuffer array to print
+ * @flags:  calculat active flags
+ * @width: width
+ * @precision: srecision specification
+ * @size: size specifier
+ * Return: num of chars
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
