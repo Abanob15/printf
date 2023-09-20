@@ -3,7 +3,7 @@
 /************************* PRINT REVERSE *************************/
 /**
  * print_reverse - function that prints reverse string
- * @types: lista of arguments
+ * @types: list a of arguments
  * @buffer: buffer array that used to handle print
  * @flags:  calculates the active flags
  * @width: get width
