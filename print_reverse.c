@@ -2,10 +2,10 @@
 
 /************************* PRINT REVERSE *************************/
 /**
- * print_reverse - Prints reverse string
- * @types: Lista of arguments
- * @buffer: Buffer array to handle print
- * @flags:  Calculates active flags
+ * print_reverse - function that prints reverse string
+ * @types: lista of arguments
+ * @buffer: buffer array that used to handle print
+ * @flags:  calculates the active flags
  * @width: get width
  * @precision: Precision specification
  * @size: Size specifier
