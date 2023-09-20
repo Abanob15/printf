@@ -5,12 +5,10 @@
  * @format: the format string
  * Return: bytes number
  */
-
 int _printf(const char *format, ...)
 {
 	int i, printed = 0, printed_chars = 0;
-	int flags, width, precision, size, buff_ind = 0;
-	va_list list;
+	int flags, width, precision, size, buff_ind = 0, va_list list;
 	char buffer[BUFF_SIZE];
 
 	if (format == NULL)
@@ -51,3 +49,15 @@ int _printf(const char *format, ...)
 	return (printed_chars);
 }
 
+/**
+ * print_buffer - prints the contents of the buffer when it's exist
+ * @buffer: array of chars
+ * @buff_ind: index which to add next char represents the length
+ */
+void print_buffer(char buffer[], int *buff_ind)
+{
+	if (*buff_ind > 0)
+		write(1, &buffer[0], *buff_ind);
+
+	*buff_ind = 0;
+}
