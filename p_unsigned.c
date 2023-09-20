@@ -1,15 +1,15 @@
 #include "main.h"
 
 /**
- * print_unsigned - Func prints an unsigned number
+ * print_unsigned - Function prints an unsigned number
  * @types: array a of args
  * @buffer: buffer array to print
- * @flags:  calculats active flags
+ * @flags:  calculats the active flags
  * @width: width
  * @precision: precision specification
  * @size: size specifier
- * Return: number of chars printed
- */
+ * Return: number of chars that will be printed
+*/
 int print_unsigned(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
 {
